@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class VotingSystemApp {
 
     static Scanner input = new Scanner(System.in); 
-    static LocalDate date = LocalDate.now();
+  public  static LocalDate date = LocalDate.now();
 
     static ArrayList<String> candidates = new ArrayList<>(); 
     static ArrayList<Integer> candidateAges = new ArrayList<>();
@@ -147,6 +147,6 @@ public class VotingSystemApp {
             }
         }
       
-        System.out.println("The winner is: " + winner + " with " + highestVotes + " votes!");
+        System.out.println("The winner is: " + winner + " with " + highestVotes + " votes! " +   date);
     }
 }
