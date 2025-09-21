@@ -122,15 +122,14 @@ def total_students():
 if __name__ == "__main__":
     
     create("Sade22", "Sade Segun", 22, {"Math", "Physics"}, "Lagos", "100001")
-    create("Kemi25", "Kemi Williams", 25, {"English", "Computer Science"}, "Abuja", "900001")
 
     display_student("Sade22")
-    display_courses("Kemi25")
-    display_zip("Kemi25")
+    display_courses("Sade22")
+    display_zip("Sade22")
     display_city("Sade22")
 
     add_course("Sade22", "Biology")
-    update_or_remove_course("Kemi25", "English", "Philosophy")
+    update_or_remove_course("Sade22", "English", "Philosophy")
     update_student("Sade22", age=28, city="Ibadan")
 
     total_students()
